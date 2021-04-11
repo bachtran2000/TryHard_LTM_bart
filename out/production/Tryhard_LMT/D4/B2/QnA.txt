@@ -1,0 +1,7 @@
+mot ?$1$2$3$4$1
+hai ?$1$2$3$4$2
+ba ?$1$2$3$4$3
+bon ?$1$2$3$4$4
+vit co may canh?$1$2$3$4$2
+An du co may chim?$1$2$3$4$1
+An co may chan?$1$2$3$4$4
