@@ -113,7 +113,20 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
-  <component name="RunManager" selected="Application.ServerUDP">
+  <component name="RunManager" selected="Application.CLient_TT_UDP">
+    <configuration name="CLient_TT_UDP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="D2.B1.CLient_TT_UDP" />
+      <module name="Tryhard_LMT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="D2.B1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ClientUDP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="D4.b1.ClientUDP" />
       <module name="Tryhard_LMT" />
@@ -166,46 +179,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Server_thiTracNghiem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="D4.B2.Server_thiTracNghiem" />
-      <module name="Tryhard_LMT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="D4.B2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.ClientUDP" />
-      <item itemvalue="Application.Server_thiTracNghiem" />
       <item itemvalue="Application.Client_thiTracNghiem" />
       <item itemvalue="Application.Server_TT_UDP" />
       <item itemvalue="Application.ServerUDP" />
+      <item itemvalue="Application.CLient_TT_UDP" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ServerUDP" />
+        <item itemvalue="Application.CLient_TT_UDP" />
         <item itemvalue="Application.Server_TT_UDP" />
-        <item itemvalue="Application.Client_thiTracNghiem" />
-        <item itemvalue="Application.Server_thiTracNghiem" />
         <item itemvalue="Application.ClientUDP" />
+        <item itemvalue="Application.ServerUDP" />
+        <item itemvalue="Application.Client_thiTracNghiem" />
       </list>
     </recent_temporary>
   </component>

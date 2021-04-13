@@ -28,6 +28,6 @@ public class CLient_TT_UDP {
         DatagramPacket packet_re = new DatagramPacket(data_re,data_re.length);
         client.receive(packet_re);
         String str_re = new String(packet_re.getData(),0, packet_re.getLength());
-        System.out.println(a+"+"+b+" = "+str_re);
+        System.out.println(a+"*"+b+" = "+str_re);
     }
 }
