@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11af6e41-b59f-4643-a23f-b799014a5874" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/D2/B2/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D2/B2/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D2/B2/sinhvien.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sinhvien.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataUser.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D3/B2/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D5/B1/client_RMI_doDai.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D5/B1/interface_doDai.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D5/B1/server_RMI_doDai.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D5/B2/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D5/B2/client_QLTV_UDP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D5/B2/server_UDP_QLTV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tryhard_LMT/D3/B2/Client_chat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tryhard_LMT/D3/B2/Client_chat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tryhard_LMT/D3/B2/Server_Chat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tryhard_LMT/D3/B2/Server_Chat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/D3/B2/Client_chat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D3/B2/Client_chat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/D3/B2/Server_Chat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D3/B2/Server_Chat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +25,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -112,13 +125,13 @@
       <recent name="C:\Users\winan\Desktop\TryHard_LTM_bart\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Server">
-    <configuration name="CLient_TT_UDP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="D2.B1.CLient_TT_UDP" />
+  <component name="RunManager" selected="Application.client_QLTV_UDP">
+    <configuration name="Client_chat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="D3.B2.Client_chat" />
       <module name="Tryhard_LMT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="D2.B1.*" />
+          <option name="PATTERN" value="D3.B2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="D2.B2.Client" />
+    <configuration name="client_QLTV_UDP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="D5.B2.client_QLTV_UDP" />
       <module name="Tryhard_LMT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="D2.B2.*" />
+          <option name="PATTERN" value="D5.B2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,12 +152,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientUDP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="D4.b1.ClientUDP" />
+    <configuration name="client_RMI_doDai" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="D5.B1.client_RMI_doDai" />
       <module name="Tryhard_LMT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="D4.b1.*" />
+          <option name="PATTERN" value="D5.B1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,12 +165,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="D2.B2.Server" />
+    <configuration name="server_RMI_doDai" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="D5.B1.server_RMI_doDai" />
       <module name="Tryhard_LMT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="D2.B2.*" />
+          <option name="PATTERN" value="D5.B1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,12 +178,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Server_TT_UDP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="D2.B1.Server_TT_UDP" />
+    <configuration name="server_UDP_QLTV" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="D5.B2.server_UDP_QLTV" />
       <module name="Tryhard_LMT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="D2.B1.*" />
+          <option name="PATTERN" value="D5.B2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -190,19 +203,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ClientUDP" />
-      <item itemvalue="Application.Server_TT_UDP" />
-      <item itemvalue="Application.CLient_TT_UDP" />
-      <item itemvalue="Application.Server" />
-      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Client_chat" />
+      <item itemvalue="Application.server_RMI_doDai" />
+      <item itemvalue="Application.client_RMI_doDai" />
+      <item itemvalue="Application.server_UDP_QLTV" />
+      <item itemvalue="Application.client_QLTV_UDP" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Server" />
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.CLient_TT_UDP" />
-        <item itemvalue="Application.Server_TT_UDP" />
-        <item itemvalue="Application.ClientUDP" />
+        <item itemvalue="Application.client_QLTV_UDP" />
+        <item itemvalue="Application.server_UDP_QLTV" />
+        <item itemvalue="Application.client_RMI_doDai" />
+        <item itemvalue="Application.server_RMI_doDai" />
+        <item itemvalue="Application.Client_chat" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +243,7 @@
       <workItem from="1617818525450" duration="434000" />
       <workItem from="1617874158457" duration="3961000" />
       <workItem from="1618322797132" duration="1547000" />
-      <workItem from="1618324456707" duration="4136000" />
+      <workItem from="1618324456707" duration="9949000" />
     </task>
     <servers />
   </component>
