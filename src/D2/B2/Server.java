@@ -42,7 +42,7 @@ public class Server implements Serializable {
 
     public static void ReadFile() {
         try {
-            File f = new File("C:\\Users\\winan\\Desktop\\TryHard_LTM_bart\\src\\D2\\B2\\sinhvien.txt");
+            File f = new File("sinhvien.txt");
             FileReader fr = new FileReader(f);
             BufferedReader br = new BufferedReader(fr);
             String line;
@@ -66,7 +66,7 @@ public class Server implements Serializable {
     }
 
     public static void WriteFile() throws IOException {
-        File f = new File("C:\\Users\\winan\\Desktop\\TryHard_LTM_bart\\src\\D2\\B2\\sinhvien.txt");
+        File f = new File("sinhvien.txt");
         FileWriter fw = new FileWriter(f);
         for (int i = 0; i < listSV.size(); i++) {
             if (i == listSV.size() - 1) {

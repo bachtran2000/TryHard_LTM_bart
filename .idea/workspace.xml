@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11af6e41-b59f-4643-a23f-b799014a5874" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/D2/B2/sinhvien.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tryhard_LMT/D2/B1/CLient_TT_UDP.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tryhard_LMT/D2/B1/CLient_TT_UDP.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tryhard_LMT/D2/B2/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tryhard_LMT/D2/B2/Server.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D2/B2/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D2/B2/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/D2/B2/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D2/B2/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D2/B2/sinhvien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D2/B2/sinhvien.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/D2/B2/sinhvien.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sinhvien.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,12 +107,12 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\winan\Desktop\TryHard_LTM_bart" />
       <recent name="C:\Users\winan\Desktop\TryHard_LTM_bart\src\D2\B2" />
       <recent name="C:\Users\winan\Desktop\TryHard_LTM_bart\src" />
-      <recent name="C:\Users\winan\Desktop\TryHard_LTM_bart" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.Server">
     <configuration name="CLient_TT_UDP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="D2.B1.CLient_TT_UDP" />
       <module name="Tryhard_LMT" />
@@ -203,8 +198,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Client" />
         <item itemvalue="Application.Server" />
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.CLient_TT_UDP" />
         <item itemvalue="Application.Server_TT_UDP" />
         <item itemvalue="Application.ClientUDP" />
@@ -235,7 +230,7 @@
       <workItem from="1617818525450" duration="434000" />
       <workItem from="1617874158457" duration="3961000" />
       <workItem from="1618322797132" duration="1547000" />
-      <workItem from="1618324456707" duration="3703000" />
+      <workItem from="1618324456707" duration="4136000" />
     </task>
     <servers />
   </component>
