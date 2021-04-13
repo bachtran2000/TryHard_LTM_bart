@@ -14,23 +14,17 @@ public class Client implements Serializable {
         Socket client = new Socket("localhost", 1506);
         DataInputStream dis = new DataInputStream(client.getInputStream());
         DataOutputStream dos = new DataOutputStream(client.getOutputStream());
-        ObjectOutputStream oos = new ObjectOutputStream(client.getOutputStream());
-        ObjectInputStream ois = new ObjectInputStream(client.getInputStream());
+
         while (true) {
             menu();
             int n = new Scanner(System.in).nextInt();
+            dos.writeInt(n);
             switch (n) {
                 case 1: {
-                    dos.writeInt(n);
-                    listSV = (ArrayList<sinhvien>) ois.readObject();
-                    for (int i = 0; i < listSV.size(); i++) {
-                        System.out.println(listSV.get(i).toString());
-                    }
+                    System.out.println(dis.readUTF());
                     break;
                 }
                 case 2:
-                    dos.writeInt(n);
-
                     System.out.println("Nhap so luong sinh vien can them: ");
                     n = new Scanner(System.in).nextInt();
                     dos.writeInt(n);
@@ -39,11 +33,9 @@ public class Client implements Serializable {
                     }
                     break;
                 case 3:
-                    dos.writeInt(n);
-                    findInfoSV(dos,dis, ois);
+                    findInfoSV(dos,dis);
                     break;
                 case 4:
-                    dos.writeInt(n);
                     menu2();
                     n = new Scanner(System.in).nextInt();
                     switch (n){
@@ -51,19 +43,22 @@ public class Client implements Serializable {
                             dos.writeInt(n);
                             System.out.println("Nhap que can tim theo nhom: ");
                             dos.writeUTF(new Scanner(System.in).nextLine());
-                            listSV = (ArrayList<sinhvien>) ois.readObject();
-                            for (int i = 0; i < listSV.size(); i++) {
-                                System.out.println(listSV.get(i).toString());
-                            }
+                            String result = dis.readUTF();
+                            if (result.equals("")){
+                                System.out.println("Not found!\n");
+                            }else
+                                System.out.println(result+"\n");
                             break;
                         case 2:
                             dos.writeInt(n);
                             System.out.println("Nhap nam sinh can tim theo nhom: ");
                             dos.writeUTF(new Scanner(System.in).nextLine());
-                            listSV = (ArrayList<sinhvien>) ois.readObject();
-                            for (int i = 0; i < listSV.size(); i++) {
-                                System.out.println(listSV.get(i).toString());
-                            }
+                            result = dis.readUTF();
+                            if (result.equals("")){
+                                System.out.println("Not found!\n");
+                            }else
+                                System.out.println(result+"\n");
+
                             break;
                     }
                     break;
@@ -97,16 +92,15 @@ public class Client implements Serializable {
         dos.writeUTF(String.valueOf(new Scanner(System.in).nextLine()));
     }
 
-    public static void findInfoSV(DataOutputStream dos, DataInputStream dis, ObjectInputStream ois) throws IOException, ClassNotFoundException {
+    public static void findInfoSV(DataOutputStream dos, DataInputStream dis) throws IOException, ClassNotFoundException {
         System.out.println("Nhap ten sinh vien can tim: ");
-        dos.writeUTF(String.valueOf(new Scanner(System.in).nextLine()));
-        int n = dis.readInt();
-        if (n == 1) {
-            sinhvien sv = new sinhvien();
-            sv = (sinhvien) ois.readObject();
-            System.out.println(sv.toString());
-        }
-        else System.out.println(dis.readUTF());
+        String str_send = new Scanner(System.in).nextLine();
+        dos.writeUTF(str_send);
+        String result =dis.readUTF();
+        if (result.equals("")){
+            System.out.println("Not found!\n");
+        }else
+        System.out.println(result+"\n");
     }
 
 }

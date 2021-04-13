@@ -27,7 +27,12 @@ public class sinhvien implements Serializable {
     public String getNgaysinh() {
         return ngaysinh;
     }
-
+    public String getNamsinh(){
+        String[] result = new String[3];
+       result = ngaysinh.split("\\/");
+       String Namsinh =result[2];
+       return Namsinh;
+    }
     public void setNgaysinh(String ngaysinh) {
         this.ngaysinh = ngaysinh;
     }
@@ -50,7 +55,10 @@ public class sinhvien implements Serializable {
 
     @Override
     public String toString() {
-        return "Ten: " +ten + " Ngay sinh: " + ngaysinh +" Ma Sv: " + maSV +" Que quan: "+ quequan;
+        return "Ten: " +ten + "| Ngay sinh: " + ngaysinh +"| Ma Sv: " + maSV +"| Que quan: "+ quequan;
+    }
+    public String toFile() {
+        return  ten + "$" + ngaysinh +"$" + maSV +"$"+ quequan;
     }
 }
 

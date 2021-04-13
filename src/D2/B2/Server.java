@@ -15,26 +15,25 @@ public class Server implements Serializable {
 
         DataOutputStream dos = new DataOutputStream(my_client.getOutputStream());
         DataInputStream dis = new DataInputStream(my_client.getInputStream());
-        ObjectInputStream ois = new ObjectInputStream(my_client.getInputStream());
-        ObjectOutputStream oos = new ObjectOutputStream(my_client.getOutputStream());
+
         while (true) {
             int n = dis.readInt();
             switch (n) {
                 case 1:
-
-                    showData(oos);
+                    dos.writeUTF(showData());
                     break;
                 case 2:
                     n = dis.readInt();
                     for (int i = 0; i < n; i++) {
                         addSV(dis);
                     }
+                    WriteFile();
                     break;
                 case 3:
-                    findSV(dis, dos, oos);
+                    findSV(dis, dos);
                     break;
                 case 4:
-                    findSV_Theonhom(dis, oos);
+                    findSV_Theonhom(dis, dos);
                     break;
             }
         }
@@ -43,7 +42,7 @@ public class Server implements Serializable {
 
     public static void ReadFile() {
         try {
-            File f = new File("C:\\Users\\84965\\Desktop\\sinhvien.txt");
+            File f = new File("C:\\Users\\winan\\Desktop\\TryHard_LTM_bart\\src\\D2\\B2\\sinhvien.txt");
             FileReader fr = new FileReader(f);
             BufferedReader br = new BufferedReader(fr);
             String line;
@@ -61,13 +60,31 @@ public class Server implements Serializable {
             fr.close();
             br.close();
         } catch (Exception e) {
-            System.out.println("loi roi :))");
+            System.out.println("loi roi :))" + e);
 
         }
     }
 
-    public static void showData(ObjectOutputStream oos) throws IOException {
-        oos.writeObject(listSV);
+    public static void WriteFile() throws IOException {
+        File f = new File("C:\\Users\\winan\\Desktop\\TryHard_LTM_bart\\src\\D2\\B2\\sinhvien.txt");
+        FileWriter fw = new FileWriter(f);
+        for (int i = 0; i < listSV.size(); i++) {
+            if (i == listSV.size() - 1) {
+                fw.write(listSV.get(i).toFile());
+            } else {
+                fw.write(listSV.get(i).toFile());
+                fw.write("\n");
+            }
+        }
+        fw.close();
+    }
+
+    public static String showData() {
+        String result = "";
+        for (int i = 0; i < listSV.size(); i++) {
+            result += listSV.get(i).toString() + "\n";
+        }
+        return result;
     }
 
     public static void addSV(DataInputStream dis) throws IOException, ClassNotFoundException {
@@ -79,35 +96,35 @@ public class Server implements Serializable {
         listSV.add(sv);
     }
 
-    public static void findSV(DataInputStream dis, DataOutputStream dos, ObjectOutputStream oos) throws IOException {
+    public static void findSV(DataInputStream dis, DataOutputStream dos) throws IOException {
         String find = dis.readUTF();
+        String result = "";
         for (int i = 0; i < listSV.size(); i++) {
             if (find.equalsIgnoreCase(listSV.get(i).getTen())) {
-                dos.writeInt(1);
-                oos.writeObject(listSV.get(i));
-            } else {
-                dos.writeInt(0);
-                dos.writeUTF("Not found!");
+                result += listSV.get(i).toString() + "\n";
             }
         }
+        dos.writeUTF(result);
     }
 
-    public static void findSV_Theonhom(DataInputStream dis, ObjectOutputStream oos) throws IOException {
-        ArrayList<sinhvien> tempList = new ArrayList<>();
+    public static void findSV_Theonhom(DataInputStream dis, DataOutputStream dos) throws IOException {
 
         int n = dis.readInt();
         System.out.println(n);
         String find = dis.readUTF();
         System.out.println(find);
+        String result = "";
         for (int i = 0; i < listSV.size(); i++) {
             if (n == 1) {
                 if (find.equalsIgnoreCase(listSV.get(i).getQuequan()))
-                    tempList.add(listSV.get(i));
+                    result += listSV.get(i).toString() + "\n";
             } else if (n == 2) {
-                if (find.equalsIgnoreCase(listSV.get(i).getNgaysinh()))
-                    tempList.add(listSV.get(i));
+                if (find.equals(listSV.get(i).getNamsinh())) {
+                    result += listSV.get(i).toString() + "\n";
+                    System.out.println(listSV.get(i).getNamsinh());
+                }
             }
         }
-        oos.writeObject(tempList);
+        dos.writeUTF(result);
     }
 }

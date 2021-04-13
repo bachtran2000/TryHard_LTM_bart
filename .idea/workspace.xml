@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11af6e41-b59f-4643-a23f-b799014a5874" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D2/B1/CLient_TT_UDP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D2/B1/Server_TT_UDP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D2/B2/sinhvien.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tryhard_LMT/D1/B1/Client" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tryhard_LMT/D2/Bai2/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tryhard_LMT/D2/Bai2/Server.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tryhard_LMT/D4/B2/Server_thiTracNghiem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tryhard_LMT/D4/B2/Server_thiTracNghiem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D2/Bai2/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D2/Bai2/Server.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tryhard_LMT/D2/B1/CLient_TT_UDP.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tryhard_LMT/D2/B1/CLient_TT_UDP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tryhard_LMT/D2/B2/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tryhard_LMT/D2/B2/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/D2/B2/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D2/B2/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/D2/B2/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D2/B2/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/D2/B2/sinhvien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D2/B2/sinhvien.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,20 +103,40 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/D2/B2" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
-  <component name="RunManager" selected="Application.CLient_TT_UDP">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\winan\Desktop\TryHard_LTM_bart\src\D2\B2" />
+      <recent name="C:\Users\winan\Desktop\TryHard_LTM_bart\src" />
+      <recent name="C:\Users\winan\Desktop\TryHard_LTM_bart" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Client">
     <configuration name="CLient_TT_UDP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="D2.B1.CLient_TT_UDP" />
       <module name="Tryhard_LMT" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="D2.B1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="D2.B2.Client" />
+      <module name="Tryhard_LMT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="D2.B2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,25 +157,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client_thiTracNghiem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="D4.B2.Client_thiTracNghiem" />
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="D2.B2.Server" />
       <module name="Tryhard_LMT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="D4.B2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ServerUDP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="D4.b1.ServerUDP" />
-      <module name="Tryhard_LMT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="D4.b1.*" />
+          <option name="PATTERN" value="D2.B2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,18 +196,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.ClientUDP" />
-      <item itemvalue="Application.Client_thiTracNghiem" />
       <item itemvalue="Application.Server_TT_UDP" />
-      <item itemvalue="Application.ServerUDP" />
       <item itemvalue="Application.CLient_TT_UDP" />
+      <item itemvalue="Application.Server" />
+      <item itemvalue="Application.Client" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Server" />
         <item itemvalue="Application.CLient_TT_UDP" />
         <item itemvalue="Application.Server_TT_UDP" />
         <item itemvalue="Application.ClientUDP" />
-        <item itemvalue="Application.ServerUDP" />
-        <item itemvalue="Application.Client_thiTracNghiem" />
       </list>
     </recent_temporary>
   </component>
@@ -231,6 +235,7 @@
       <workItem from="1617818525450" duration="434000" />
       <workItem from="1617874158457" duration="3961000" />
       <workItem from="1618322797132" duration="1547000" />
+      <workItem from="1618324456707" duration="3703000" />
     </task>
     <servers />
   </component>
