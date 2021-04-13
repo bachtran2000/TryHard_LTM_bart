@@ -2,17 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11af6e41-b59f-4643-a23f-b799014a5874" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/D2/Bai2/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D2/Bai2/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D4/B2/Client_thiTracNghiem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D4/B2/QnA.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D4/B2/Question.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D4/B2/Server_thiTracNghiem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D4/b1/ClientUDP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D4/b1/ServerUDP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D2/B1/CLient_TT_UDP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D2/B1/Server_TT_UDP.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tryhard_LMT/D1/B1/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tryhard_LMT/D1/B1/Server.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D1/B1/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D1/B1/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tryhard_LMT/D1/B1/Client" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tryhard_LMT/D2/Bai2/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tryhard_LMT/D2/Bai2/Server.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tryhard_LMT/D4/B2/Server_thiTracNghiem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tryhard_LMT/D4/B2/Server_thiTracNghiem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/D2/Bai2/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/D2/Bai2/Server.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +113,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
-  <component name="RunManager" selected="Application.Client_thiTracNghiem">
+  <component name="RunManager" selected="Application.ServerUDP">
     <configuration name="ClientUDP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="D4.b1.ClientUDP" />
       <module name="Tryhard_LMT" />
@@ -141,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="D2.Bai2.Server" />
+    <configuration name="ServerUDP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="D4.b1.ServerUDP" />
       <module name="Tryhard_LMT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="D2.Bai2.*" />
+          <option name="PATTERN" value="D4.b1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServerUDP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="D4.b1.ServerUDP" />
+    <configuration name="Server_TT_UDP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="D2.B1.Server_TT_UDP" />
       <module name="Tryhard_LMT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="D4.b1.*" />
+          <option name="PATTERN" value="D2.B1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,31 +179,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ServerUDP" />
       <item itemvalue="Application.ClientUDP" />
-      <item itemvalue="Application.Server" />
       <item itemvalue="Application.Server_thiTracNghiem" />
       <item itemvalue="Application.Client_thiTracNghiem" />
+      <item itemvalue="Application.Server_TT_UDP" />
+      <item itemvalue="Application.ServerUDP" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ServerUDP" />
+        <item itemvalue="Application.Server_TT_UDP" />
         <item itemvalue="Application.Client_thiTracNghiem" />
         <item itemvalue="Application.Server_thiTracNghiem" />
         <item itemvalue="Application.ClientUDP" />
-        <item itemvalue="Application.Server" />
-        <item itemvalue="Application.ServerUDP" />
       </list>
     </recent_temporary>
   </component>
@@ -231,6 +232,7 @@
       <workItem from="1617813229435" duration="536000" />
       <workItem from="1617818525450" duration="434000" />
       <workItem from="1617874158457" duration="3961000" />
+      <workItem from="1618322797132" duration="1547000" />
     </task>
     <servers />
   </component>
