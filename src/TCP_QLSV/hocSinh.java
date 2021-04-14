@@ -1,3 +1,4 @@
+package TCP_QLSV;
 public class hocSinh {
     protected String MHS, ten,diaChi,gt;
     protected float DTK;

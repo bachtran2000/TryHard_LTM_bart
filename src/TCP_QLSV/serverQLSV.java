@@ -1,3 +1,5 @@
+package TCP_QLSV;
+
 import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
@@ -7,7 +9,7 @@ public class serverQLSV {
     static ArrayList<hocSinh> listHS = new ArrayList<>();
 
     public static void ReadFile() throws IOException {
-        File f = new File("C:\\Users\\winan\\IdeaProjects\\bai1\\src\\hocsinh.txt");
+        File f = new File("hocsinh.txt");
         FileReader fr = new FileReader(f);
         BufferedReader br = new BufferedReader(fr);
 
@@ -49,7 +51,7 @@ public class serverQLSV {
     }
 
     public static void WriteFile() throws IOException {
-        File f = new File("C:\\Users\\winan\\IdeaProjects\\bai1\\src\\hocsinh.txt");
+        File f = new File("hocsinh.txt");
         FileWriter fw = new FileWriter(f);
         for (int i = 0; i <listHS.size(); i++) {
             fw.write(listHS.get(i).toString());
