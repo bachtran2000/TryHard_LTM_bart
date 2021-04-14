@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11af6e41-b59f-4643-a23f-b799014a5874" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mathang.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D6/B1/client_doSo_UDP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D6/B1/server_doSo_UDP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D6/B2/client_QLBH_TCP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D6/B2/matHang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D6/B2/server_QLBH_TCP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ReadWriteFile/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cauthu.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D7/B1/client_RMI_checkTriagle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D7/B1/interface__RMI_checkTriagle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D7/B1/server_RMI_checkTriagle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D7/B2/cauThu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D7/B2/client_TCP_tinhLuong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D7/B2/server_TCP_tinhLuong.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -120,7 +119,7 @@
       <recent name="C:\Users\winan\Desktop\TryHard_LTM_bart\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.client_QLBH_TCP">
+  <component name="RunManager" selected="Application.client_TCP_tinhLuong">
     <configuration name="client_QLBH_TCP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="D6.B2.client_QLBH_TCP" />
       <module name="Tryhard_LMT" />
@@ -134,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="client_doSo_UDP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="D6.B1.client_doSo_UDP" />
+    <configuration name="client_RMI_checkTriagle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="D7.B1.client_RMI_checkTriagle" />
       <module name="Tryhard_LMT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="D6.B1.*" />
+          <option name="PATTERN" value="D7.B1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReadWriteFile.main" />
+    <configuration name="client_TCP_tinhLuong" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="D7.B2.client_TCP_tinhLuong" />
       <module name="Tryhard_LMT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ReadWriteFile.*" />
+          <option name="PATTERN" value="D7.B2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,12 +159,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="server_QLBH_TCP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="D6.B2.server_QLBH_TCP" />
+    <configuration name="server_RMI_checkTriagle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="D7.B1.server_RMI_checkTriagle" />
       <module name="Tryhard_LMT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="D6.B2.*" />
+          <option name="PATTERN" value="D7.B1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,12 +172,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="server_doSo_UDP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="D6.B1.server_doSo_UDP" />
+    <configuration name="server_TCP_tinhLuong" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="D7.B2.server_TCP_tinhLuong" />
       <module name="Tryhard_LMT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="D6.B1.*" />
+          <option name="PATTERN" value="D7.B2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,19 +199,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.main" />
-      <item itemvalue="Application.server_doSo_UDP" />
-      <item itemvalue="Application.client_doSo_UDP" />
-      <item itemvalue="Application.server_QLBH_TCP" />
       <item itemvalue="Application.client_QLBH_TCP" />
+      <item itemvalue="Application.server_RMI_checkTriagle" />
+      <item itemvalue="Application.client_RMI_checkTriagle" />
+      <item itemvalue="Application.server_TCP_tinhLuong" />
+      <item itemvalue="Application.client_TCP_tinhLuong" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.client_TCP_tinhLuong" />
+        <item itemvalue="Application.server_TCP_tinhLuong" />
+        <item itemvalue="Application.client_RMI_checkTriagle" />
+        <item itemvalue="Application.server_RMI_checkTriagle" />
         <item itemvalue="Application.client_QLBH_TCP" />
-        <item itemvalue="Application.server_QLBH_TCP" />
-        <item itemvalue="Application.client_doSo_UDP" />
-        <item itemvalue="Application.server_doSo_UDP" />
-        <item itemvalue="Application.main" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +240,7 @@
       <workItem from="1617874158457" duration="3961000" />
       <workItem from="1618322797132" duration="1547000" />
       <workItem from="1618324456707" duration="10553000" />
-      <workItem from="1618365022096" duration="4991000" />
+      <workItem from="1618365022096" duration="8164000" />
     </task>
     <servers />
   </component>
