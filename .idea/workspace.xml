@@ -2,14 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11af6e41-b59f-4643-a23f-b799014a5874" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/matHangHCGD.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D8/B1/client_UDP_binhPhuong.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D8/B1/server_UDP_binhPhuong.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D8/B2/client_RMI_HCGD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D8/B2/interface_RMI_HCGD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D8/B2/matHang_RMI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D8/B2/server_RMI_HCGD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sach.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D2/D2.2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D6/6.2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D7/D7.2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D8/D8.2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D9/B1/client_TCP_dayMonth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D9/B1/server_TCP_dayMonth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D9/B2/Sach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D9/B2/client_UDP_QLTV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D9/B2/server_UDP_QLTV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D9/D9.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hocsinh.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hocsinh.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tryhard_LMT/ClientQLSV.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tryhard_LMT/TCP_QLSV/hocsinh.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tryhard_LMT/hocSinh.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tryhard_LMT/serverQLSV.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,13 +128,13 @@
       <recent name="C:\Users\winan\Desktop\TryHard_LTM_bart\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.client_RMI_HCGD">
-    <configuration name="client_RMI_HCGD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="D8.B2.client_RMI_HCGD" />
+  <component name="RunManager" selected="Application.server_UDP_QLTV2">
+    <configuration name="ClientQLSV" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TCP_QLSV.ClientQLSV" />
       <module name="Tryhard_LMT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="D8.B2.*" />
+          <option name="PATTERN" value="TCP_QLSV.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="client_TCP_tinhLuong" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="D7.B2.client_TCP_tinhLuong" />
+    <configuration name="client_TCP_dayMonth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="D9.B1.client_TCP_dayMonth" />
       <module name="Tryhard_LMT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="D7.B2.*" />
+          <option name="PATTERN" value="D9.B1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,12 +155,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="client_UDP_binhPhuong" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="D8.B1.client_UDP_binhPhuong" />
+    <configuration name="client_UDP_QLTV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="D9.B2.client_UDP_QLTV2" />
       <module name="Tryhard_LMT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="D8.B1.*" />
+          <option name="PATTERN" value="D9.B2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,12 +168,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="server_RMI_HCGD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="D8.B2.server_RMI_HCGD" />
+    <configuration name="server_TCP_dayMonth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="D9.B1.server_TCP_dayMonth" />
       <module name="Tryhard_LMT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="D8.B2.*" />
+          <option name="PATTERN" value="D9.B1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,33 +181,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="server_UDP_binhPhuong" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="D8.B1.server_UDP_binhPhuong" />
+    <configuration name="server_UDP_QLTV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="D9.B2.server_UDP_QLTV2" />
       <module name="Tryhard_LMT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="D8.B1.*" />
+          <option name="PATTERN" value="D9.B2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.client_TCP_tinhLuong" />
-      <item itemvalue="Application.server_UDP_binhPhuong" />
-      <item itemvalue="Application.client_UDP_binhPhuong" />
-      <item itemvalue="Application.server_RMI_HCGD" />
-      <item itemvalue="Application.client_RMI_HCGD" />
+      <item itemvalue="Application.ClientQLSV" />
+      <item itemvalue="Application.client_TCP_dayMonth" />
+      <item itemvalue="Application.server_TCP_dayMonth" />
+      <item itemvalue="Application.server_UDP_QLTV2" />
+      <item itemvalue="Application.client_UDP_QLTV2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.client_RMI_HCGD" />
-        <item itemvalue="Application.server_RMI_HCGD" />
-        <item itemvalue="Application.client_UDP_binhPhuong" />
-        <item itemvalue="Application.server_UDP_binhPhuong" />
-        <item itemvalue="Application.client_TCP_tinhLuong" />
+        <item itemvalue="Application.client_UDP_QLTV2" />
+        <item itemvalue="Application.server_UDP_QLTV2" />
+        <item itemvalue="Application.client_TCP_dayMonth" />
+        <item itemvalue="Application.server_TCP_dayMonth" />
+        <item itemvalue="Application.ClientQLSV" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +250,10 @@
       <workItem from="1618322797132" duration="1547000" />
       <workItem from="1618324456707" duration="10553000" />
       <workItem from="1618365022096" duration="11494000" />
-      <workItem from="1618400725388" duration="334000" />
+      <workItem from="1618400725388" duration="2044000" />
+      <workItem from="1618405947417" duration="608000" />
+      <workItem from="1618414932712" duration="393000" />
+      <workItem from="1618459572673" duration="3043000" />
     </task>
     <servers />
   </component>
