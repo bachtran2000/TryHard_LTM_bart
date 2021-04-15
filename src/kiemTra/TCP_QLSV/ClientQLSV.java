@@ -1,4 +1,4 @@
-package TCP_QLSV;
+package kiemTra.TCP_QLSV;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
@@ -48,16 +48,16 @@ public class ClientQLSV {
                     }
                     else {
                         System.out.println("Them thong tin sinh vien");
-                        System.out.println("Ten");
+                        System.out.print("Ten: ");
                         str_send = new Scanner(System.in).nextLine();
                         dos.writeUTF(str_send);
-                        System.out.println("Dia chi");
+                        System.out.print("Dia chi: ");
                         str_send = new Scanner(System.in).nextLine();
                         dos.writeUTF(str_send);
-                        System.out.println("Gioi tinh");
+                        System.out.print("Gioi tinh: ");
                         str_send = new Scanner(System.in).nextLine();
                         dos.writeUTF(str_send);
-                        System.out.println("DTK");
+                        System.out.print("Diem tong ket: ");
                         str_send = new Scanner(System.in).nextLine();
                         dos.writeUTF(str_send);
                     }

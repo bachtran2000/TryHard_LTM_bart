@@ -50,18 +50,26 @@ public class client_UDP_QLTV2 {
                     if (!result.equals("true"))
                         System.out.println(result);
                     else {
-                        System.out.println("Nhap ten nguoi muon: ");
-                        str_send = new Scanner(System.in).nextLine();
-                        data_send  =new byte[1024];
-                        data_send = str_send.getBytes(StandardCharsets.UTF_8);
-                        packet_send = new DatagramPacket(data_send, data_send.length,ip,2349);
-                        client.send(packet_send);
-
                         data_re = new byte[1024];
                         pack_re  =  new DatagramPacket(data_re,0,data_re.length);
                         client.receive(pack_re);
                         str_re = new String(pack_re.getData(),0,pack_re.getLength());
                         result = str_re;
+                        if (result.equals("true")){
+                            System.out.println("Nhap ten nguoi muon: ");
+                            str_send = new Scanner(System.in).nextLine();
+                            data_send  =new byte[1024];
+                            data_send = str_send.getBytes(StandardCharsets.UTF_8);
+                            packet_send = new DatagramPacket(data_send, data_send.length,ip,2349);
+                            client.send(packet_send);
+
+                            data_re = new byte[1024];
+                            pack_re  =  new DatagramPacket(data_re,0,data_re.length);
+                            client.receive(pack_re);
+                            str_re = new String(pack_re.getData(),0,pack_re.getLength());
+                            result = str_re;
+                            System.out.println(result);
+                        }
                         System.out.println(result);
                     }
                     break;

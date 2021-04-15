@@ -9,14 +9,15 @@ import java.util.ArrayList;
 
 public class server_UDP_QLTV2 {
     static ArrayList<Sach> listS = new ArrayList<>();
-    public static void ReadFile(){
-        try{
+
+    public static void ReadFile() {
+        try {
             File f = new File("sach.txt");
             FileReader fr = new FileReader(f);
             BufferedReader br = new BufferedReader(fr);
             String line;
 
-            while((line = br.readLine())!=null){
+            while ((line = br.readLine()) != null) {
                 String[] result;
                 result = line.split("\\$");
                 Sach m = new Sach();
@@ -34,13 +35,13 @@ public class server_UDP_QLTV2 {
         }
     }
 
-    public static void WriteFile(){
+    public static void WriteFile() {
         try {
             File f = new File("sach.txt");
             FileWriter fw = new FileWriter(f);
             for (int i = 0; i < listS.size(); i++) {
-                if (i<listS.size())
-                    fw.write(listS.get(i).toString()+"\n");
+                if (i < listS.size())
+                    fw.write(listS.get(i).toString() + "\n");
                 else
                     fw.write(listS.get(i).toString());
             }
@@ -50,70 +51,90 @@ public class server_UDP_QLTV2 {
         }
     }
 
-    public static boolean checkValid(String id){
+    public static boolean checkValid(String id) {
         for (int i = 0; i < listS.size(); i++) {
             if (id.equalsIgnoreCase(listS.get(i).getId()))
-                if ("chua muon".equalsIgnoreCase(listS.get(i).getNm()))
-                    return true;
+                return true;
         }
         return false;
     }
+
+    public static boolean checkMuon(String id) {
+        if (checkValid(id)) {
+            for (int i = 0; i < listS.size(); i++)
+                if (id.equalsIgnoreCase(listS.get(i).getId()))
+                    if ("chua muon".equalsIgnoreCase(listS.get(i).getNm()))
+                        return true;
+        }
+        return false;
+    }
+
 
     public static void main(String[] args) throws IOException {
         DatagramSocket sv = new DatagramSocket(2349);
         ReadFile();
 
         byte[] data_re = new byte[1024];
-        DatagramPacket pack_re  =  new DatagramPacket(data_re,0,data_re.length);
+        DatagramPacket pack_re = new DatagramPacket(data_re, 0, data_re.length);
         sv.receive(pack_re);
-        String str_re = new String(pack_re.getData(),0,pack_re.getLength());
+        String str_re = new String(pack_re.getData(), 0, pack_re.getLength());
         String c = str_re;
-        String str_send="";
+        String str_send = "";
 
-        switch (c){
-            case "1":
-                str_send="";
-                for (int i = 0; i < listS.size(); i++) {
-                    str_send+=listS.get(i).toString()+"\n";
-                }
-                break;
-            case "2":
-                str_send="";
-                data_re = new byte[1024];
-                pack_re  =  new DatagramPacket(data_re,0,data_re.length);
-                sv.receive(pack_re);
-                str_re = new String(pack_re.getData(),0,pack_re.getLength());
-                String id = str_re;
-                if (checkValid(id)){
-                    byte[] data_send  =new byte[1024];
-                    data_send = "true".getBytes(StandardCharsets.UTF_8);
-                    DatagramPacket packet_send = new DatagramPacket(data_send, data_send.length,pack_re.getAddress(), pack_re.getPort());
-                    sv.send(packet_send);
+        while (true) {
+            switch (c) {
+                case "1":
+                    str_send = "";
+                    for (int i = 0; i < listS.size(); i++) {
+                        str_send += listS.get(i).toString() + "\n";
+                    }
+                    break;
+                case "2":
 
                     data_re = new byte[1024];
-                    pack_re  =  new DatagramPacket(data_re,0,data_re.length);
+                    pack_re = new DatagramPacket(data_re, 0, data_re.length);
                     sv.receive(pack_re);
-                    str_re = new String(pack_re.getData(),0,pack_re.getLength());
-                    String name = str_re;
-                    for (int i = 0; i < listS.size(); i++) {
-                        if (id.equalsIgnoreCase(listS.get(i).getId()))
-                            listS.get(i).setNm(name);
-                    }
-                    str_send="Muon sach thanh cong";
+                    str_re = new String(pack_re.getData(), 0, pack_re.getLength());
+                    String id = str_re;
+                    if (checkValid(id)) {
+                        byte[] data_send = new byte[1024];
+                        data_send = "true".getBytes(StandardCharsets.UTF_8);
+                        DatagramPacket packet_send = new DatagramPacket(data_send, data_send.length, pack_re.getAddress(), pack_re.getPort());
+                        sv.send(packet_send);
 
-                }else {
-                    str_send ="Sach dang co nguoi muon";
-                    byte[] data_send  =new byte[1024];
-                    data_send = str_send.getBytes(StandardCharsets.UTF_8);
-                    DatagramPacket packet_send = new DatagramPacket(data_send, data_send.length,pack_re.getAddress(), pack_re.getPort());
-                    sv.send(packet_send);
-                }
-                WriteFile();
-                break;
+                        if (checkMuon(id)) {
+                            data_send = new byte[1024];
+                            data_send = "true".getBytes(StandardCharsets.UTF_8);
+                            packet_send = new DatagramPacket(data_send, data_send.length, pack_re.getAddress(), pack_re.getPort());
+                            sv.send(packet_send);
+
+                            data_re = new byte[1024];
+                            pack_re = new DatagramPacket(data_re, 0, data_re.length);
+                            sv.receive(pack_re);
+                            str_re = new String(pack_re.getData(), 0, pack_re.getLength());
+                            String name = str_re;
+                            for (int i = 0; i < listS.size(); i++) {
+                                if (id.equalsIgnoreCase(listS.get(i).getId()))
+                                    listS.get(i).setNm(name);
+                            }
+                            str_send = "Muon sach thanh cong";
+                        } else {
+                            str_send = "Sach dang co nguoi muon";
+                        }
+                    } else {
+                        str_send = "Sach khong co trong thu vien";
+                        byte[] data_send = new byte[1024];
+                        data_send = str_send.getBytes(StandardCharsets.UTF_8);
+                        DatagramPacket packet_send = new DatagramPacket(data_send, data_send.length, pack_re.getAddress(), pack_re.getPort());
+                        sv.send(packet_send);
+                    }
+                    WriteFile();
+                    break;
+            }
+            byte[] data_send = new byte[1024];
+            data_send = str_send.getBytes(StandardCharsets.UTF_8);
+            DatagramPacket packet_send = new DatagramPacket(data_send, data_send.length, pack_re.getAddress(), pack_re.getPort());
+            sv.send(packet_send);
         }
-        byte[] data_send  =new byte[1024];
-        data_send = str_send.getBytes(StandardCharsets.UTF_8);
-        DatagramPacket packet_send = new DatagramPacket(data_send, data_send.length,pack_re.getAddress(), pack_re.getPort());
-        sv.send(packet_send);
     }
 }

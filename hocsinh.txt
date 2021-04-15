@@ -1,5 +1,8 @@
-1$Trung$ha noi$nam$5.0
+1$Trung$ha noi$nam$6.0
 2$Thanh$bac ninh$nu$10.0
 3$bach$da nang$nam$9.0
 4$hiep$ha tinh$nam$5.0
 5$vak$bac giang$nam$7.0
+at150204$bach$dag nang$nam$10.0
+at150203$vank$bac giang$nam$8.0
+6545$cuong$hoa binh$nam$6.0

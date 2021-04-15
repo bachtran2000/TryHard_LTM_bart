@@ -1,4 +1,4 @@
-package TCP_QLSV;
+package kiemTra.TCP_QLSV;
 public class hocSinh {
     protected String MHS, ten,diaChi,gt;
     protected float DTK;
@@ -61,5 +61,10 @@ public class hocSinh {
                 "$" + diaChi +
                 "$" + gt +
                 "$"  + DTK ;
+    }
+
+    public String toShow(){
+        return
+                "MHS: " + MHS + "\t\t\t| Ten: " + ten + "\t\t| Dia Chi: " + diaChi + "\t\t| Gioi tinh: " + gt + "\t\t| DTK: " + DTK;
     }
 }

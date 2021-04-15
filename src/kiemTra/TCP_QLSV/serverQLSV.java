@@ -1,4 +1,4 @@
-package TCP_QLSV;
+package kiemTra.TCP_QLSV;
 
 import java.io.*;
 import java.net.ServerSocket;
@@ -34,8 +34,8 @@ public class serverQLSV {
     public static String checkHB() {
         String result = "";
         for (int i = 0; i < listHS.size(); i++) {
-            if ((listHS.get(i).getDTK()) >= 7)
-                result += listHS.get(i).toString() + "\n";
+            if ((listHS.get(i).getDTK()) >= 8)
+                result += listHS.get(i).toShow() + "\n";
         }
         return result;
     }
@@ -71,13 +71,13 @@ public class serverQLSV {
             int c = dis.readInt();
             switch (c) {
                 case 1:
-                    System.out.println(c);
+
                     String str_send = "";
                     for (int i = 0; i < listHS.size(); i++) {
-                        str_send += listHS.get(i).toString() + "\n";
+                        str_send += listHS.get(i).toShow() + "\n";
                     }
                     dos.writeUTF(str_send);
-                    System.out.println(str_send);
+
                     break;
                 case 2:
                     str_send = checkHB();
@@ -87,7 +87,6 @@ public class serverQLSV {
                     String str_re = dis.readUTF();
                     String id = str_re;
                     str_send = checkTontai(str_re);
-                    System.out.println(str_re+str_send);
 
                     if (str_send.equalsIgnoreCase("Nhap diem")) {
                         dos.writeUTF(str_send);
@@ -100,7 +99,7 @@ public class serverQLSV {
                     } else {
                         dos.writeUTF(str_send);
                         hocSinh hs = new hocSinh();
-                        hs.setMHS(String.valueOf(listHS.size()+1));
+                        hs.setMHS(id);
                         hs.setTen(dis.readUTF());
                         hs.setDiaChi(dis.readUTF());
                         hs.setGt(dis.readUTF());
