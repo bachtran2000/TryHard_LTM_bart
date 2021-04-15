@@ -23,9 +23,7 @@ public class serverQLSV {
             hs.setDiaChi(result[2]);
             hs.setGt(result[3]);
             hs.setDTK(Float.parseFloat(result[4]));
-
             listHS.add(hs);
-
         }
         fr.close();
         br.close();

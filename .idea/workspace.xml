@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11af6e41-b59f-4643-a23f-b799014a5874" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/kiemTra/UDP_uocN/client_uoc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kiemTra/UDP_uocN/server_uoc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kiemTra/UDP_QLSV/client_UDP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kiemTra/UDP_QLSV/server_UDP.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hocsinh.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hocsinh.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tryhard_LMT/D9/B2/client_UDP_QLTV2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tryhard_LMT/D9/B2/client_UDP_QLTV2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tryhard_LMT/D9/B2/server_UDP_QLTV2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tryhard_LMT/D9/B2/server_UDP_QLTV2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tryhard_LMT/TCP_QLSV/ClientQLSV.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tryhard_LMT/TCP_QLSV/hocSinh.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tryhard_LMT/TCP_QLSV/serverQLSV.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D9/B2/client_UDP_QLTV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D9/B2/client_UDP_QLTV2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D9/B2/server_UDP_QLTV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D9/B2/server_UDP_QLTV2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TCP_QLSV/ClientQLSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kiemTra/TCP_QLSV/ClientQLSV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TCP_QLSV/hocSinh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kiemTra/TCP_QLSV/hocSinh.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TCP_QLSV/serverQLSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kiemTra/TCP_QLSV/serverQLSV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kiemTra/TCP_QLSV/serverQLSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kiemTra/TCP_QLSV/serverQLSV.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +115,7 @@
       <recent name="C:\Users\winan\Desktop\TryHard_LTM_bart\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.client_uoc">
+  <component name="RunManager" selected="Application.client_UDP">
     <configuration name="ClientQLSV" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="kiemTra.TCP_QLSV.ClientQLSV" />
       <module name="Tryhard_LMT" />
@@ -139,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="client_UDP_QLTV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="D9.B2.client_UDP_QLTV2" />
+    <configuration name="client_UDP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kiemTra.UDP_QLSV.client_UDP" />
       <module name="Tryhard_LMT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="D9.B2.*" />
+          <option name="PATTERN" value="kiemTra.UDP_QLSV.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,12 +155,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="serverQLSV" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kiemTra.TCP_QLSV.serverQLSV" />
+    <configuration name="server_UDP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kiemTra.UDP_QLSV.server_UDP" />
       <module name="Tryhard_LMT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kiemTra.TCP_QLSV.*" />
+          <option name="PATTERN" value="kiemTra.UDP_QLSV.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -205,19 +195,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.client_UDP_QLTV2" />
-      <item itemvalue="Application.serverQLSV" />
       <item itemvalue="Application.server_uoc" />
       <item itemvalue="Application.ClientQLSV" />
       <item itemvalue="Application.client_uoc" />
+      <item itemvalue="Application.server_UDP" />
+      <item itemvalue="Application.client_UDP" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.client_UDP" />
+        <item itemvalue="Application.server_UDP" />
         <item itemvalue="Application.client_uoc" />
         <item itemvalue="Application.server_uoc" />
         <item itemvalue="Application.ClientQLSV" />
-        <item itemvalue="Application.serverQLSV" />
-        <item itemvalue="Application.client_UDP_QLTV2" />
       </list>
     </recent_temporary>
   </component>
@@ -252,7 +242,7 @@
       <workItem from="1618414932712" duration="393000" />
       <workItem from="1618459572673" duration="3178000" />
       <workItem from="1618467223380" duration="2415000" />
-      <workItem from="1618473928761" duration="2505000" />
+      <workItem from="1618473928761" duration="4576000" />
     </task>
     <servers />
   </component>
