@@ -65,6 +65,6 @@ public class hocSinh {
 
     public String toShow(){
         return
-                "MHS: " + MHS + "\t\t\t| Ten: " + ten + "\t\t| Dia Chi: " + diaChi + "\t\t| Gioi tinh: " + gt + "\t\t| DTK: " + DTK;
+                "Ma Hoc Sinh: " + MHS + " Ten: " + ten + " Dia Chi: " + diaChi + " Gioi tinh: " + gt + " DTK: " + DTK;
     }
 }

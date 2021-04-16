@@ -1,4 +1,4 @@
-1$Trung$ha noi$nam$10.0
+1$Trung$ha noi$nam$5.0
 2$Thanh$bac ninh$nu$10.0
 3$bach$da nang$nam$9.0
 4$hiep$ha tinh$nam$5.0
