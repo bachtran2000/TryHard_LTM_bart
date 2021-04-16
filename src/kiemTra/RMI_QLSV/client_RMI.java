@@ -18,7 +18,7 @@ public class client_RMI {
     public client_RMI() throws IOException, NotBoundException {
         Registry cl = LocateRegistry.getRegistry("localhost",8383);
         inter_RMI regis = (inter_RMI) cl.lookup("server");
-        server_RMI sv = new server_RMI();
+
         while (true){
             menu();
             int c = new Scanner(System.in).nextInt();

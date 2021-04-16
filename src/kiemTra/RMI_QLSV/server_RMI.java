@@ -94,25 +94,25 @@ public class server_RMI extends UnicastRemoteObject implements inter_RMI {
     }
 
     @Override
-    public String Add(String find,String name,String ad,String gt, String dtk) throws IOException {
-String str_send ="";
-            hocSinh hs = new hocSinh();
+    public String Add(String find, String name, String ad, String gt, String dtk) throws IOException {
+        String str_send = "";
+        hocSinh hs = new hocSinh();
 
-            hs.setMHS(find);
+        hs.setMHS(find);
 
-            hs.setTen(name);
-
-
-            hs.setDiaChi(ad);
+        hs.setTen(name);
 
 
-            hs.setGt(gt);
+        hs.setDiaChi(ad);
 
 
-            hs.setDTK(Float.parseFloat(dtk));
+        hs.setGt(gt);
 
-            listHS.add(hs);
-            str_send = "Nhap thong tin thanh cong!";
+
+        hs.setDTK(Float.parseFloat(dtk));
+
+        listHS.add(hs);
+        str_send = "Nhap thong tin thanh cong!";
 
         WriteFile();
         return str_send;

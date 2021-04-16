@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11af6e41-b59f-4643-a23f-b799014a5874" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/kiemTra/RMI_QLSV/client_RMI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kiemTra/RMI_QLSV/inter_RMI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kiemTra/RMI_QLSV/server_RMI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hocsinh.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hocsinh.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kiemTra/TCP_QLSV/hocSinh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kiemTra/TCP_QLSV/hocSinh.java" afterDir="false" />
-    </list>
+    <list default="true" id="11af6e41-b59f-4643-a23f-b799014a5874" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -120,7 +113,7 @@
       <recent name="kiemTra.RMI_QLSV" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.client_RMI">
+  <component name="RunManager" selected="Application.server_RMI">
     <configuration name="client_RMI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="kiemTra.RMI_QLSV.client_RMI" />
       <module name="Tryhard_LMT" />
@@ -246,7 +239,7 @@
       <workItem from="1618459572673" duration="3178000" />
       <workItem from="1618467223380" duration="2415000" />
       <workItem from="1618473928761" duration="4986000" />
-      <workItem from="1618533426842" duration="2905000" />
+      <workItem from="1618533426842" duration="3765000" />
     </task>
     <servers />
   </component>
