@@ -49,8 +49,7 @@ public class server_RMI extends UnicastRemoteObject implements inter_RMI {
         }
         fw.close();
     }
-
-
+    
     @Override
     public String showAll() throws RemoteException {
         String result = "";
