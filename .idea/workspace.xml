@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11af6e41-b59f-4643-a23f-b799014a5874" name="Default Changelist" comment="" />
+    <list default="true" id="11af6e41-b59f-4643-a23f-b799014a5874" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/sinhdien.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QLSV/Client_TCP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QLSV/Client_UDP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QLSV/Server_TCP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QLSV/Server_UDP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QLSV/SinhVien.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tryhard_LMT/kiemTra/RMI_QLSV/server_RMI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tryhard_LMT/kiemTra/RMI_QLSV/server_RMI.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -96,7 +105,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/D2/B2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -113,7 +126,59 @@
       <recent name="kiemTra.RMI_QLSV" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.server_RMI">
+  <component name="RunManager" selected="Application.Client_UDP">
+    <configuration name="Client_TCP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="QLSV.Client_TCP" />
+      <module name="Tryhard_LMT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="QLSV.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client_UDP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="QLSV.Client_UDP" />
+      <module name="Tryhard_LMT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="QLSV.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server_TCP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="QLSV.Server_TCP" />
+      <module name="Tryhard_LMT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="QLSV.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server_UDP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="QLSV.Server_UDP" />
+      <module name="Tryhard_LMT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="QLSV.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="client_RMI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="kiemTra.RMI_QLSV.client_RMI" />
       <module name="Tryhard_LMT" />
@@ -127,83 +192,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="client_UDP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kiemTra.UDP_QLSV.client_UDP" />
-      <module name="Tryhard_LMT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="kiemTra.UDP_QLSV.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="client_uoc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kiemTra.UDP_uocN.client_uoc" />
-      <module name="Tryhard_LMT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="kiemTra.UDP_uocN.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="server_RMI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kiemTra.RMI_QLSV.server_RMI" />
-      <module name="Tryhard_LMT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="kiemTra.RMI_QLSV.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="server_UDP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kiemTra.UDP_QLSV.server_UDP" />
-      <module name="Tryhard_LMT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="kiemTra.UDP_QLSV.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.client_uoc" />
-      <item itemvalue="Application.server_UDP" />
-      <item itemvalue="Application.client_UDP" />
-      <item itemvalue="Application.server_RMI" />
       <item itemvalue="Application.client_RMI" />
+      <item itemvalue="Application.Server_TCP" />
+      <item itemvalue="Application.Client_TCP" />
+      <item itemvalue="Application.Server_UDP" />
+      <item itemvalue="Application.Client_UDP" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client_UDP" />
+        <item itemvalue="Application.Server_UDP" />
+        <item itemvalue="Application.Client_TCP" />
+        <item itemvalue="Application.Server_TCP" />
         <item itemvalue="Application.client_RMI" />
-        <item itemvalue="Application.server_RMI" />
-        <item itemvalue="Application.client_UDP" />
-        <item itemvalue="Application.server_UDP" />
-        <item itemvalue="Application.client_uoc" />
       </list>
     </recent_temporary>
   </component>
@@ -240,6 +255,12 @@
       <workItem from="1618467223380" duration="2415000" />
       <workItem from="1618473928761" duration="4986000" />
       <workItem from="1618533426842" duration="3992000" />
+      <workItem from="1620980949994" duration="622000" />
+      <workItem from="1621408448939" duration="62000" />
+      <workItem from="1621408546058" duration="51000" />
+      <workItem from="1626236057543" duration="8000" />
+      <workItem from="1626581609445" duration="8710000" />
+      <workItem from="1626664172698" duration="4125000" />
     </task>
     <servers />
   </component>
