@@ -115,14 +115,13 @@ public class Client_UDP {
                     packet_send = new DatagramPacket(data_send, data_send.length, ip, 2349);
                     client.send(packet_send);
 
-                    menu2();
                     data_re = new byte[1024];
                     packet_re = new DatagramPacket(data_re, 0, data_re.length);
                     client.receive(packet_re);
                     str_re = new String(packet_re.getData(), 0, packet_re.getLength());
                     result = str_re;
 
-                    if (result.equals("1")) {
+                    if (result.equals("1")){
                         menu2();
                         int chon = new Scanner(System.in).nextInt();
 
@@ -210,7 +209,8 @@ public class Client_UDP {
                                 break;
                         }
 
-                    } else {
+                    }
+                    else {
                         data_re = new byte[1024];
                         packet_re = new DatagramPacket(data_re, 0, data_re.length);
                         client.receive(packet_re);

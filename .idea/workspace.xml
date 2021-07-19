@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11af6e41-b59f-4643-a23f-b799014a5874" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sinhdien.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QLSV/Client_TCP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QLSV/Client_UDP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QLSV/Server_TCP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QLSV/Server_UDP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QLSV/SinhVien.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tryhard_LMT/kiemTra/RMI_QLSV/server_RMI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tryhard_LMT/kiemTra/RMI_QLSV/server_RMI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sinhdien.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sinhdien.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QLSV/Client_UDP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QLSV/Client_UDP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QLSV/Server_UDP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QLSV/Server_UDP.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -260,7 +256,7 @@
       <workItem from="1621408546058" duration="51000" />
       <workItem from="1626236057543" duration="8000" />
       <workItem from="1626581609445" duration="8710000" />
-      <workItem from="1626664172698" duration="4125000" />
+      <workItem from="1626664172698" duration="8244000" />
     </task>
     <servers />
   </component>

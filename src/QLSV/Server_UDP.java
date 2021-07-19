@@ -158,20 +158,85 @@ public class Server_UDP {
                         ser.receive(packet_re);
                         str_re = new String(packet_re.getData(), 0, packet_re.getLength());
                         String chon = str_re;
+                        for (int i = 0; i < listSV.size(); i++) {
+                            if (msv.equalsIgnoreCase(listSV.get(i).getMsv())){
+                                switch (chon){
+                                    case "1":
+                                        data_re = new byte[1024];
+                                        packet_re = new DatagramPacket(data_re, 0, data_re.length);
+                                        ser.receive(packet_re);
+                                        str_re = new String(packet_re.getData(), 0, packet_re.getLength());
+                                        ht = str_re;
+                                        listSV.get(i).setHt(ht);
 
-                        switch (chon){
-                            case "1":
-                                break;
-                            case "2":
-                                break;
-                            case "3":
-                                break;
-                            case "4":
-                                break;
-                            case "5":
-                                break;
+                                        data_re = new byte[1024];
+                                        packet_re = new DatagramPacket(data_re, 0, data_re.length);
+                                        ser.receive(packet_re);
+                                        str_re = new String(packet_re.getData(), 0, packet_re.getLength());
+                                        ns = str_re;
+                                        listSV.get(i).setNs(ns);
+
+                                        data_re = new byte[1024];
+                                        packet_re = new DatagramPacket(data_re, 0, data_re.length);
+                                        ser.receive(packet_re);
+                                        str_re = new String(packet_re.getData(), 0, packet_re.getLength());
+                                        msv = str_re;
+                                        listSV.get(i).setMsv(msv);
+
+                                        data_re = new byte[1024];
+                                        packet_re = new DatagramPacket(data_re, 0, data_re.length);
+                                        ser.receive(packet_re);
+                                        str_re = new String(packet_re.getData(), 0, packet_re.getLength());
+                                        dtb = str_re;
+                                        listSV.get(i).setDtb(dtb);
+                                        break;
+                                    case "2":
+                                        data_re = new byte[1024];
+                                        packet_re = new DatagramPacket(data_re, 0, data_re.length);
+                                        ser.receive(packet_re);
+                                        str_re = new String(packet_re.getData(), 0, packet_re.getLength());
+                                        ht = str_re;
+                                        listSV.get(i).setHt(ht);
+                                        break;
+                                    case "3":
+                                        data_re = new byte[1024];
+                                        packet_re = new DatagramPacket(data_re, 0, data_re.length);
+                                        ser.receive(packet_re);
+                                        str_re = new String(packet_re.getData(), 0, packet_re.getLength());
+                                        ns = str_re;
+                                        listSV.get(i).setNs(ns);
+                                        break;
+                                    case "4":
+                                        data_re = new byte[1024];
+                                        packet_re = new DatagramPacket(data_re, 0, data_re.length);
+                                        ser.receive(packet_re);
+                                        str_re = new String(packet_re.getData(), 0, packet_re.getLength());
+                                        msv = str_re;
+                                        listSV.get(i).setMsv(msv);
+                                        break;
+                                    case "5":
+                                        data_re = new byte[1024];
+                                        packet_re = new DatagramPacket(data_re, 0, data_re.length);
+                                        ser.receive(packet_re);
+                                        str_re = new String(packet_re.getData(), 0, packet_re.getLength());
+                                        dtb = str_re;
+                                        listSV.get(i).setDtb(dtb);
+                                        break;
+                                }
+                            }
                         }
-                    }else {
+                        WriteFile();
+                        data_send = new byte[1024];
+                        data_send = ("Update thanh cong!").getBytes(StandardCharsets.UTF_8);
+                        packet_send = new DatagramPacket(data_send, data_send.length, packet_re.getAddress(), packet_re.getPort());
+                        ser.send(packet_send);
+                    }
+                    else {
+                        data_send = new byte[1024];
+                        data_send = ("0").getBytes(StandardCharsets.UTF_8);
+                        packet_send = new DatagramPacket(data_send, data_send.length, packet_re.getAddress(), packet_re.getPort());
+                        ser.send(packet_send);
+
                         data_send = new byte[1024];
                         data_send = ("Khong tim thay sinh vien can cap nhat thong tin!").getBytes(StandardCharsets.UTF_8);
                         packet_send = new DatagramPacket(data_send, data_send.length, packet_re.getAddress(), packet_re.getPort());
