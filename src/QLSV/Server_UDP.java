@@ -1,13 +1,10 @@
 package QLSV;
 
-import javax.swing.*;
 import java.io.*;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
-import java.net.SocketException;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
-import java.util.Scanner;
 
 import static java.lang.System.exit;
 
@@ -21,7 +18,7 @@ public class Server_UDP {
 
         String line;
         while ((line = br.readLine()) != null) {
-            String result[];
+            String[] result;
             result = line.split("\\$");
 
             SinhVien sv = new SinhVien();
@@ -159,8 +156,8 @@ public class Server_UDP {
                         str_re = new String(packet_re.getData(), 0, packet_re.getLength());
                         String chon = str_re;
                         for (int i = 0; i < listSV.size(); i++) {
-                            if (msv.equalsIgnoreCase(listSV.get(i).getMsv())){
-                                switch (chon){
+                            if (msv.equalsIgnoreCase(listSV.get(i).getMsv())) {
+                                switch (chon) {
                                     case "1":
                                         data_re = new byte[1024];
                                         packet_re = new DatagramPacket(data_re, 0, data_re.length);
@@ -230,8 +227,7 @@ public class Server_UDP {
                         data_send = ("Update thanh cong!").getBytes(StandardCharsets.UTF_8);
                         packet_send = new DatagramPacket(data_send, data_send.length, packet_re.getAddress(), packet_re.getPort());
                         ser.send(packet_send);
-                    }
-                    else {
+                    } else {
                         data_send = new byte[1024];
                         data_send = ("0").getBytes(StandardCharsets.UTF_8);
                         packet_send = new DatagramPacket(data_send, data_send.length, packet_re.getAddress(), packet_re.getPort());

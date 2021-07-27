@@ -1,14 +1,9 @@
 package QLSV;
 
-import javax.swing.*;
-import javax.xml.crypto.Data;
 import java.io.*;
-import java.lang.reflect.Array;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.ArrayList;
-import java.util.Locale;
-import java.util.Objects;
 
 import static java.lang.System.exit;
 
@@ -21,7 +16,7 @@ public class Server_TCP {
         BufferedReader br = new BufferedReader(fr);
         String line;
         while ((line = br.readLine()) != null) {
-            String result[];
+            String[] result;
             result = line.split("\\$");
 
             SinhVien sv = new SinhVien();
@@ -80,7 +75,7 @@ public class Server_TCP {
     public static String deleteSV(DataInputStream dis) throws IOException {
         String msv = dis.readUTF();
         String ht;
-        if (isExist(msv)){
+        if (isExist(msv)) {
             for (int i = 0; i < listSV.size(); i++) {
                 ht = listSV.get(i).getHt();
                 if (msv.equalsIgnoreCase(listSV.get(i).getMsv())) {
@@ -134,10 +129,10 @@ public class Server_TCP {
         return "Khong tim thay thong tin can thay doi!";
     }
 
-    public static String showAll(){
-        String result="";
+    public static String showAll() {
+        String result = "";
         for (int i = 0; i < listSV.size(); i++) {
-            result += listSV.get(i).toString()+"\n";
+            result += listSV.get(i).toString() + "\n";
         }
         return result;
     }

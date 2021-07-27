@@ -1,7 +1,7 @@
 package QLSV;
 
 public class SinhVien {
-    protected String ht,ns,msv,dtb;
+    protected String ht, ns, msv, dtb;
 
     public SinhVien() {
     }
@@ -47,9 +47,10 @@ public class SinhVien {
 
     @Override
     public String toString() {
-        return  "Ho ten:'" + ht + '\'' +", Ngay sinh:'" + ns + '\'' +", MSV:'" + msv + '\'' +", Diem trung binh:'" + dtb ;
+        return "Ho ten:'" + ht + '\'' + ", Ngay sinh:'" + ns + '\'' + ", MSV:'" + msv + '\'' + ", Diem trung binh:'" + dtb;
     }
-    public String writeFile(){
-        return ht+"$"+ns+"$"+msv+"$"+dtb;
+
+    public String writeFile() {
+        return ht + "$" + ns + "$" + msv + "$" + dtb;
     }
 }

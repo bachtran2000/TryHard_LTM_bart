@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11af6e41-b59f-4643-a23f-b799014a5874" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/QLSV/Client_RMI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QLSV/Interface_QLSV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QLSV/Server_RMI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sinhdien.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sinhdien.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/QLSV/Client_UDP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QLSV/Client_UDP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QLSV/Server_TCP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QLSV/Server_TCP.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/QLSV/Server_UDP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QLSV/Server_UDP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QLSV/SinhVien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QLSV/SinhVien.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,15 +192,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -256,7 +258,8 @@
       <workItem from="1621408546058" duration="51000" />
       <workItem from="1626236057543" duration="8000" />
       <workItem from="1626581609445" duration="8710000" />
-      <workItem from="1626664172698" duration="8244000" />
+      <workItem from="1626664172698" duration="8736000" />
+      <workItem from="1626884148108" duration="1484000" />
     </task>
     <servers />
   </component>
