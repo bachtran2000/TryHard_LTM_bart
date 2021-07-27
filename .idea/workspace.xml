@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11af6e41-b59f-4643-a23f-b799014a5874" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/de_le_mien_nam/Clientfile/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Tryhard_LMT/de_chan_mien_nam/WriteReadFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tryhard_LMT/de_chan_mien_nam/WriteReadFile.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/de_le_mien_nam/Client_FTP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de_le_mien_nam/Client_FTP.java" afterDir="false" />
@@ -258,7 +257,7 @@
       <workItem from="1626581609445" duration="8710000" />
       <workItem from="1626664172698" duration="8736000" />
       <workItem from="1626884148108" duration="1484000" />
-      <workItem from="1627359998169" duration="7779000" />
+      <workItem from="1627359998169" duration="8091000" />
     </task>
     <servers />
   </component>
