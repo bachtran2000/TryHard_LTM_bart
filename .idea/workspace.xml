@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11af6e41-b59f-4643-a23f-b799014a5874" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/QLSV/Client_RMI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QLSV/Interface_QLSV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QLSV/Server_RMI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/de_chan_mien_nam/WriteReadFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.txt_binary.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/QLSV/Client_UDP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QLSV/Client_UDP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/QLSV/Server_TCP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QLSV/Server_TCP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/QLSV/Server_UDP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QLSV/Server_UDP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/QLSV/SinhVien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QLSV/SinhVien.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tryhard_LMT/QLSV/Client_UDP.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tryhard_LMT/QLSV/Client_UDP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tryhard_LMT/QLSV/Server_TCP.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tryhard_LMT/QLSV/Server_TCP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tryhard_LMT/QLSV/Server_UDP.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tryhard_LMT/QLSV/Server_UDP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tryhard_LMT/QLSV/SinhVien.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tryhard_LMT/QLSV/SinhVien.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +126,7 @@
       <recent name="kiemTra.RMI_QLSV" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client_UDP">
+  <component name="RunManager" selected="Application.WriteReadFile">
     <configuration name="Client_TCP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="QLSV.Client_TCP" />
       <module name="Tryhard_LMT" />
@@ -179,12 +179,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="client_RMI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kiemTra.RMI_QLSV.client_RMI" />
+    <configuration name="WriteReadFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de_chan_mien_nam.WriteReadFile" />
       <module name="Tryhard_LMT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kiemTra.RMI_QLSV.*" />
+          <option name="PATTERN" value="de_chan_mien_nam.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -204,19 +204,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.client_RMI" />
       <item itemvalue="Application.Server_TCP" />
       <item itemvalue="Application.Client_TCP" />
       <item itemvalue="Application.Server_UDP" />
       <item itemvalue="Application.Client_UDP" />
+      <item itemvalue="Application.WriteReadFile" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WriteReadFile" />
         <item itemvalue="Application.Client_UDP" />
         <item itemvalue="Application.Server_UDP" />
         <item itemvalue="Application.Client_TCP" />
         <item itemvalue="Application.Server_TCP" />
-        <item itemvalue="Application.client_RMI" />
       </list>
     </recent_temporary>
   </component>
@@ -260,6 +260,7 @@
       <workItem from="1626581609445" duration="8710000" />
       <workItem from="1626664172698" duration="8736000" />
       <workItem from="1626884148108" duration="1484000" />
+      <workItem from="1627359998169" duration="2952000" />
     </task>
     <servers />
   </component>
