@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11af6e41-b59f-4643-a23f-b799014a5874" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/de_chan_mien_nam/WriteReadFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.txt_binary.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/de_le_mien_nam/Client_FTP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/de_le_mien_nam/FileInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/de_le_mien_nam/Server_FTP.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tryhard_LMT/QLSV/Client_UDP.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tryhard_LMT/QLSV/Client_UDP.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tryhard_LMT/QLSV/Server_TCP.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tryhard_LMT/QLSV/Server_TCP.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tryhard_LMT/QLSV/Server_UDP.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tryhard_LMT/QLSV/Server_UDP.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tryhard_LMT/QLSV/SinhVien.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tryhard_LMT/QLSV/SinhVien.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_binary.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.txt_binary.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -260,7 +260,7 @@
       <workItem from="1626581609445" duration="8710000" />
       <workItem from="1626664172698" duration="8736000" />
       <workItem from="1626884148108" duration="1484000" />
-      <workItem from="1627359998169" duration="2952000" />
+      <workItem from="1627359998169" duration="5582000" />
     </task>
     <servers />
   </component>
