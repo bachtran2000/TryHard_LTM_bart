@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11af6e41-b59f-4643-a23f-b799014a5874" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/de_le_mien_nam/Client_FTP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/de_le_mien_nam/FileInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/de_le_mien_nam/Server_FTP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/de_le_mien_nam/Clientfile/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_binary.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.txt_binary.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tryhard_LMT/de_chan_mien_nam/WriteReadFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tryhard_LMT/de_chan_mien_nam/WriteReadFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/de_le_mien_nam/Client_FTP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de_le_mien_nam/Client_FTP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/de_le_mien_nam/FileInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/de_le_mien_nam/Server_FTP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de_le_mien_nam/Server_FTP.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,13 +124,13 @@
       <recent name="kiemTra.RMI_QLSV" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WriteReadFile">
-    <configuration name="Client_TCP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="QLSV.Client_TCP" />
+  <component name="RunManager" selected="Application.Client_FTP">
+    <configuration name="Client_FTP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de_le_mien_nam.Client_FTP" />
       <module name="Tryhard_LMT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="QLSV.*" />
+          <option name="PATTERN" value="de_le_mien_nam.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,12 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Server_TCP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="QLSV.Server_TCP" />
+    <configuration name="Server_FTP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de_le_mien_nam.Server_FTP" />
       <module name="Tryhard_LMT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="QLSV.*" />
+          <option name="PATTERN" value="de_le_mien_nam.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -204,19 +202,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Server_TCP" />
-      <item itemvalue="Application.Client_TCP" />
       <item itemvalue="Application.Server_UDP" />
       <item itemvalue="Application.Client_UDP" />
       <item itemvalue="Application.WriteReadFile" />
+      <item itemvalue="Application.Client_FTP" />
+      <item itemvalue="Application.Server_FTP" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client_FTP" />
+        <item itemvalue="Application.Server_FTP" />
         <item itemvalue="Application.WriteReadFile" />
         <item itemvalue="Application.Client_UDP" />
         <item itemvalue="Application.Server_UDP" />
-        <item itemvalue="Application.Client_TCP" />
-        <item itemvalue="Application.Server_TCP" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +258,7 @@
       <workItem from="1626581609445" duration="8710000" />
       <workItem from="1626664172698" duration="8736000" />
       <workItem from="1626884148108" duration="1484000" />
-      <workItem from="1627359998169" duration="5582000" />
+      <workItem from="1627359998169" duration="7779000" />
     </task>
     <servers />
   </component>
